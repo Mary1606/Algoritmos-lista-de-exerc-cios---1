@@ -1,4 +1,3 @@
-
 #Usuário pede um número para mostrar a tabuada
 numero = int(input('Digite um número: '))
 
