@@ -1,3 +1,4 @@
+#Função para determinar o maior ou o menor número
 def maior_menor(a,b):
     if a == b:
         print(f'{a} e {b} são iguais')     
@@ -6,8 +7,7 @@ def maior_menor(a,b):
     else:
         print(f'{a} é menor que {b}')
 
+#Imprimir na tela os números determinados pelo usuário
 numero1 = int(input('Digite um número: '))
 numero2 = int(input('Digite outro número: '))
 
-if __name__ == "__main__":
-    maior_menor(numero1,numero2)
